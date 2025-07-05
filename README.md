@@ -45,7 +45,7 @@ python excel2owl/excel2owl_properties.py -e your_relation.xlsx -i your.owl -o ne
 
 #### 3. selective owl merging: Merge selected branches from imported ontology into base ontology
 ```bash
-sh selective_owl_merging.sh
+sh selective_owl_merging/selective_owl_merging.sh
 ```
 
 Note: Please update the configuration in both merge_branches.json and selective_owl_merging.sh before running.
