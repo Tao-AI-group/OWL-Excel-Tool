@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="https://github.com/Tao-AI-group/BSO_AD"
+         xmlns="https://github.com/Tao-AI-group/BSO_AD#"
+         xmlns:core="http://www.w3.org/2004/02/skos/core#">
+
+<owl:Ontology rdf:about="https://github.com/Tao-AI-group/BSO_AD"/>
+
+<owl:AnnotationProperty rdf:about="#ICD10CM"/>
+
+<owl:AnnotationProperty rdf:about="#UMLS_CUI"/>
+
+<owl:AnnotationProperty rdf:about="#UMLS_Semantic_Types"/>
+
+<owl:Class rdf:about="#00000">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Demographic</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#00001">
+  <rdfs:subClassOf rdf:resource="#00000"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Age</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#00002">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#00003">
+  <rdfs:subClassOf rdf:resource="#00002"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Men_Who_Have_Sex_with_Men</rdfs:label>
+  <core:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Men who engage in sexual activity with other men, regardless of how they identify themselves. (NCI)</core:definition>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2827413</UMLS_CUI>
+  <UMLS_Semantic_Types rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Population Group</UMLS_Semantic_Types>
+</owl:Class>
+
+<owl:Class rdf:about="#00004">
+  <rdfs:subClassOf rdf:resource="#00002"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patient</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#00005">
+  <rdfs:subClassOf rdf:resource="#00002"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person_at_Early_Childhood</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#00006">
+  <rdfs:subClassOf rdf:resource="#00002"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person_Needs_Financial_Support</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#00007">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Element_Relevant_to_Education</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#00008">
+  <rdfs:subClassOf rdf:resource="#00007"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Access_to_Education</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#00009">
+  <rdfs:subClassOf rdf:resource="#00007"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Early_Childhood_Education</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#00010">
+  <rdfs:subClassOf rdf:resource="#00007"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Education_Level</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#00011">
+  <rdfs:subClassOf rdf:resource="#00010"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elementary_School_Completed</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#00012">
+  <rdfs:subClassOf rdf:resource="#00010"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High_Schoold_Graduation</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#00013">
+  <rdfs:subClassOf rdf:resource="#00010"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Higher_Education</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#00014">
+  <rdfs:subClassOf rdf:resource="#00013"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Associate_Degree</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#00015">
+  <rdfs:subClassOf rdf:resource="#00013"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bachelor's_Degree</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#00016">
+  <rdfs:subClassOf rdf:resource="#00013"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">College_Completed</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#00017">
+  <rdfs:subClassOf rdf:resource="#00013"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Master's_Degree</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#00018">
+  <rdfs:subClassOf rdf:resource="#00013"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phd_Degree</rdfs:label>
+</owl:Class>
+
+
+</rdf:RDF>

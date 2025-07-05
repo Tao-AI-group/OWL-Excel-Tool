@@ -1,0 +1,12 @@
+[
+  {
+    "import_class_iri": "http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Activity",
+    "base_parent_iri": "https://github.com/Tao-AI-group/BSO_AD#00000",
+    "output_file": "BSO_AD_test_activity.owl"
+  },
+  {
+    "import_class_iri": "http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Exercise_effect",
+    "base_parent_iri": "https://github.com/Tao-AI-group/BSO_AD#00000",
+    "output_file": "BSO_AD_test_Exercise_effect.owl"
+  }
+]
