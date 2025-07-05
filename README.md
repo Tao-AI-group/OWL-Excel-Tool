@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 ### Basic Command:
 
-#### owl2excel: extract OWL to Excel
+#### 1. owl2excel: extract OWL to Excel
 
 ##### extract classes and annotation properties
 ```bash
@@ -33,7 +33,7 @@ python owl2excel/owl2excel_properties.py -i your.owl -o properties.xlsx
 
 ```
 
-#### excel2owl: convert Excel to OWL
+#### 2. excel2owl: convert Excel to OWL
 ##### Build OWL classes and annotation properties from Excel
 ```bash
 python excel2owl/excel2owl_class_annotations.py  -e your.xlsx -u your_uri -o output.owl 
@@ -43,7 +43,7 @@ python excel2owl/excel2owl_class_annotations.py  -e your.xlsx -u your_uri -o out
 python excel2owl/excel2owl_properties.py -e your_relation.xlsx -i your.owl -o new_owl_relations.owl
 ```
 
-#### selective owl merging: Merge selected branches from imported ontology into base ontology
+#### 3. selective owl merging: Merge selected branches from imported ontology into base ontology
 ```bash
 sh selective_owl_merging.sh
 ```
